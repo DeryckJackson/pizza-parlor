@@ -16,7 +16,7 @@ A website that generates prices for pizzas depending on size and toppings chosen
 
 2. **Behavior:** Program will output order details based on website inputs
     * **Input Example:** name: "Deryck", size: 14, toppings: "cheese"
-    * **Output Example:** "Thank you Deryck, for you order of a size 14 pizza with cheese."
+    * **Output Example:** "Thank you Deryck, for you order of a Large pizza with cheese."
 
 3. **Behavior:** Program will calculate price of pizza depending on toppings and size chosen
     * **Input Example:** size: 14, toppings: cheese, pepperoni
