@@ -24,7 +24,7 @@ A website that generates prices for pizzas depending on size and toppings chosen
 
 ## Setup and Installation
 
-* Navigate to [Link]()
+* Navigate to [Link](https://github.com/DeryckJackson/pizza-parlor)
 * Click the green clone button to download the repo your Computer
 * Find the .zip file on your Computer
 * Unzip the file
