@@ -12,7 +12,7 @@ A website that generates prices for pizzas depending on size and toppings chosen
 
 1. **Behavior:** Program will create a empty pizza object with entries for name of orderer, toppings and size.
     * **Input Example:**
-    * **Output Example:** name: "", size: 0, toppings: [], 
+    * **Output Example:** name: "", size: "", toppings: [], 
 
 2. **Behavior:** Program will output order details based on website inputs
     * **Input Example:** name: "Deryck", size: 14, toppings: "cheese"
