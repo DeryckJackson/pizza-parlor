@@ -22,10 +22,6 @@ A website that generates prices for pizzas depending on size and toppings chosen
     * **Input Example:** size: 14, toppings: cheese, pepperoni
     * **Output Example:** $18.00
 
-4. **Behavior:** Program will take multiple pizza orders and calculate total price of all pizzas ordered
-    * **Input Example:** 2 pizzas with toppings
-    * **Output Example:** $36.00
-
 ## Setup and Installation
 
 * Navigate to [Link]()
