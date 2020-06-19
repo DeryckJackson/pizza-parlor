@@ -1,23 +1,30 @@
-# Title
+# Pizza Parlor
 
-#### Latest version date
+#### Latest version date 6/19/2020
 
 #### By Deryck Jackson
 
 ## Description
 
-
+A website that generates prices for pizzas depending on size and toppings chosen
 
 ## Specifications
 
-1. **Behavior:** Program
+1. **Behavior:** Program will create a empty pizza object with entries for name of orderer, toppings and size.
     * **Input Example:**
-    * **Output Example:**
+    * **Output Example:** name: "", size: 0, toppings: [], 
 
-2. **Behavior:** Program
-    * **Input Example:**
-    * **Output Example:**
+2. **Behavior:** Program will output order details based on website inputs
+    * **Input Example:** name: "Deryck", size: 14, toppings: "cheese"
+    * **Output Example:** "Thank you Deryck, for you order of a size 14 pizza with cheese."
 
+3. **Behavior:** Program will calculate price of pizza depending on toppings and size chosen
+    * **Input Example:** size: 14, toppings: cheese, pepperoni
+    * **Output Example:** $18.00
+
+4. **Behavior:** Program will take multiple pizza orders and calculate total price of all pizzas ordered
+    * **Input Example:** 2 pizzas with toppings
+    * **Output Example:** $36.00
 
 ## Setup and Installation
 
@@ -25,7 +32,7 @@
 * Click the green clone button to download the repo your Computer
 * Find the .zip file on your Computer
 * Unzip the file
-* Browse to __ directory
+* Browse to _pizza-parlor_ directory
 * Open _index.html_ in your browser
 
 ## Bugs
