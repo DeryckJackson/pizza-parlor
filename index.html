@@ -14,9 +14,9 @@
     <form id="pizzaForm">
       <div class="form-group">
         <label for="name">Please enter your name:</label>
-        <input type="text" class="form-control" id="name">
+        <input type="text" class="form-control" id="name" required>
       </div>
-      <p>Base cost of a pizza is $12</p>
+      <p>Base cost of a pizza is $12.</p>
       <div class="flexbox-row">
         <div class="flexbox card">
           <div class="card-body">
@@ -79,7 +79,7 @@
         </div>
         <div class="flexbox card">
           <div class="card-body">
-            <p>Toppings:</p>
+            <p>Toppings: (+$1 each)</p>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" name="toppings" id="pepperoni" value="pepperoni">
               <label for="toppings" class="form-check-label">Pepperoni</label>
@@ -90,7 +90,7 @@
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" name="toppings" id="pineapple" value="pineapple">
-              <label for="toppings" class="form-check-label">Pineapple</label>
+              <label for="toppings" class="form-check-label">Pineapple (+$1)</label>
             </div>
             <div class="form-check">
               <input type="checkbox" name="toppings" class="form-check-input" id="canadian-bacon" value="canadian-bacon">
@@ -119,16 +119,16 @@
           </div>
         </div>
       </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-      <div class="output hide">
-        <p><span id="output-name"></span>, your <span id="output-size"></span> pizza with <span id="output-toppings"></span> costs $<span id="output-cost"></span>.</p>
-        <ul>
-          <li>Crust: <span id="output-crust"></span></li>
-          <li>Sauce: <span id="output-sauce"></span></li>
-          <li>Cheese: <span id="output-cheese"></span></li>
-        </ul>
-      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="output hide">
+      <p><span id="output-name"></span>, your <span id="output-size"></span> pizza with <span id="output-toppings"></span> costs $<span id="output-cost"></span>.</p>
+      <ul>
+        <li>Crust: <span id="output-crust"></span></li>
+        <li>Sauce: <span id="output-sauce"></span></li>
+        <li>Cheese: <span id="output-cheese"></span></li>
+      </ul>
+    </div>
   </div>
 </body>
 </html>
