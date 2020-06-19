@@ -3,6 +3,7 @@ function Pizza() {
   this.name = "";
   this.size = "";
   this.crust = ""
+  this.sauce = ""
   this.cost = 10;
   this.toppings = {
     "pepperoni": 1,
@@ -21,7 +22,7 @@ function Pizza() {
 Pizza.prototype.calculateCost = function() {
   switch (this.size) {
     case "medium":
-      this.cost += 2;
+      this.cost += 2
       break;
     case "large":
       this.cost += 4;
@@ -34,7 +35,7 @@ Pizza.prototype.calculateCost = function() {
   }
 
   if (this.crust === "cheese") {
-    this.cost += 4
+    this.cost += 3;
   }
 
   this.selectedToppings.forEach((element) => {
@@ -66,6 +67,7 @@ $(document).ready(function() {
     pizza.name = $("input#name").val()
     pizza.size = $("input:radio[name=size]:checked").val()
     pizza.crust = $("input:radio[name=crust]:checked").val()
+    pizza.sauce = $("input:radio[name=sauce]:checked").val()
 
     $("input:checkbox[name=toppings]").each(function() {
       if (this.checked) {
